@@ -1,0 +1,8 @@
+{
+  "task-list-item": {
+    "prefix": "task-list-item",
+    "body": [
+      "- [] ${1: task title}"
+    ]
+  }
+}

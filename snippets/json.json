@@ -1,0 +1,9 @@
+{
+  "snippet": {
+    "prefix": "snippet-vs-code-style",
+    "body": [
+      "${1: prefix}",
+      "body: []"
+    ]
+  }
+}

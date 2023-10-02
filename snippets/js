@@ -1,0 +1,32 @@
+{
+  "+page.server.js loader": {
+    "prefix": "loader-+page.server.js.loader",
+    "body": [
+      "<script>",
+      "\t${1:// your script goes here}",
+      "</script>",
+      "",
+      "<style>",
+      "\t${2:/* your styles go here */}",
+      "</style>",
+      "",
+      "${3:<!-- markup (zero or more items) goes here -->}"
+    ],
+    "description": "add a script to your svelte file"
+  },
+  "+page.js loader": {
+    "prefix": "loader-+page.js.loader",
+    "body": [
+      "<script>",
+      "\t${1:// your script goes here}",
+      "</script>",
+      "",
+      "<style>",
+      "\t${2:/* your styles go here */}",
+      "</style>",
+      "",
+      "${3:<!-- markup (zero or more items) goes here -->}"
+    ],
+    "description": "add a script to your svelte file"
+  }
+}
